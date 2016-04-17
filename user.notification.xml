@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.user.notification" name="Hello Guys" version="1.0.0" provider-name="johnwillson">
+<addon id="script.user.notification" name="User Notification" version="1.0.0" provider-name="johnwillson">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -8,8 +8,8 @@
 	</extension>
 	<extension point="xbmc.user.notification.metadata">
 		<platform>all</platform>
-		<summary lang="en">Popup Hello Guys</summary>
-		<description lang="en">Example Script to show display message</description>
+		<summary lang="en">Popup user notification</summary>
+		<description lang="en">Very simple script to display a popup notification to user</description>
 		<license>GNU General Public License, v3</license>
 		<language></language>
 		<forum>http://forum.kodi.tv/showthread.php?tid=209948</forum>
